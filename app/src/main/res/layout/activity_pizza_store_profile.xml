@@ -9,7 +9,7 @@
     tools:context=".PizzaStoreProfileActivity">
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/logoPizza"
+        android:id="@+id/storeImg"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:src="@mipmap/ic_launcher"
@@ -21,6 +21,7 @@
         android:layout_marginTop="10dp"
         android:text="가게이름"/>
     <TextView
+        android:id="@+id/storeName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="40sp"
@@ -43,6 +44,7 @@
                android:textSize="20sp"
                android:text="전화번호"/>
            <TextView
+               android:id="@+id/storePhone"
                android:layout_width="match_parent"
                android:layout_height="0dp"
                android:layout_weight="1"
@@ -52,6 +54,7 @@
 
        </LinearLayout>
        <Button
+           android:id="@+id/storeCall"
            android:layout_width="0dp"
            android:layout_height="100dp"
            android:layout_weight="1"
