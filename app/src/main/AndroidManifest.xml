@@ -3,6 +3,7 @@
     package="com.example.a20191221_04_pizzalistapp">
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
 
 
     <application
